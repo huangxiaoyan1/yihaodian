@@ -1,0 +1,478 @@
+*{
+     margin: 0;
+     padding: 0;
+ }
+html{
+    display: block;
+}
+body{
+    font-size: 12px;
+    /*line-height: 25px;*/
+    color: #555555;
+    margin: 0 auto;
+    background-color: white;
+    display: block;
+
+}
+a{
+    color: #555555;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4e00;
+    text-decoration: underline;
+}
+image{
+    border: 0;
+}
+ul,li,dl,dt,dd{
+    list-style: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.center{
+    margin: 0 auto;
+}
+.img1 {
+    transition: All 0.4s ease-in-out;
+    -webkit-transition: All 0.4s ease-in-out;
+    -moz-transition: All 0.4s ease-in-out;
+    -o-transition: All 0.4s ease-in-out;
+}
+.img1:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+
+/*------------header-----------------*/
+.atr{
+    width: 1440px;
+    margin: 0 auto;
+}
+.content1{
+    height:35px;
+    background: linear-gradient(#9c9c9c,white);
+}
+.content1 .fl{
+    margin-left:50px;
+    line-height: 35px;
+}
+.content1 .fr ul{
+    padding-right: 30px;
+}
+.content1 .fr ul li{
+    display: block;
+    float: left;
+    line-height: 35px;
+}
+.content1 .fr ul li.second a{
+    color: red;
+}
+.content2{
+    height:182px;
+    border-bottom: 2px solid red;
+}
+.content2 .fl{
+    margin-top: 38px;
+    margin-left:60px ;
+}
+.content2 .center .kuang{
+    margin-top:50px;
+    margin-left:126px ;
+    padding:10px 300px 10px 10px;
+    border: 2px solid red;
+}
+.content2 .center .btn{
+    margin-left: -5px;
+    padding: 9px 30px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+}
+.content2 .fr .car{
+    margin-right:235px ;
+    margin-top:-30px ;
+    border: 1px solid #9c9c9c;
+    padding: 10px 30px 10px 5px;
+    background-color: lightyellow;
+}
+.content2 .fr .car img{
+    margin-right: 10px;
+}
+.content2 .cend ul li{
+    float: left;
+    padding-right: 10px;
+}
+.content2 .cend{
+    margin-left:367px ;
+    margin-top: -15px;
+}
+.content2  .down .fl{
+    margin-left: 112px;
+    background-color: red;
+    color: white;
+    margin-top: 24px;
+}
+.content2  .down .fl p{
+   padding: 15px 80px 12px 46px;
+    font-size: 14px;
+}
+.content2  .down ul li{
+    display: block;
+    float: left;
+    padding-right: 30px;
+}
+.content2  .down ul li.t a{
+    color: red;
+}
+.content2  .down ul li a{
+    font-size: 16px;
+    font-weight: bold;
+}
+.content2  .down ul {
+    margin-left:340px;
+    margin-top: -30px;
+}
+.content2 .down .fr p.right{
+    margin-right: 92px;
+}
+.content3{
+    height: 400px;
+}
+.content3 .fl ul{
+    width:210px;
+    height:400px;
+    background-color: crimson;
+    margin-left:112px ;
+}
+.content3 .fl ul li{
+    height: 40px;
+    line-height: 40px;
+}
+.content3 .fl ul li a{
+    color: white;
+}
+.content3 .fl ul li img{
+    float: left;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 12px;
+}
+.content3 .fl ul li i{
+    float: right;
+    margin-right: 20px;
+}
+.content3 .center img.cen{
+    width:740px ;
+    height: 400px;
+    margin-left:15px ;
+}
+.content3 .center{
+    float: left;
+    position: relative;
+}
+.content3 .center .cont .numb ul li{
+    display: block;
+    width: 10px;
+    height: 10px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #A9A9A9;
+}
+.content3 .center .cont .numb ul li a{
+    color: black;
+    font-weight: bold;
+}
+.content3 .center .cont .numb{
+    position: absolute;
+    bottom: 20px;
+    left: 350px;
+}
+.content3 .center .cont .jian .prve{
+    position: absolute;
+    top: 170px;
+    left: 16px;
+}
+.content3 .center .cont .jian .next{
+    position: absolute;
+    top: 170px;
+    right: -1px;
+}
+.content3 .fr{
+    border: 1px solid #A9A9A9;
+    width:210px;
+    height: 400px;
+    margin-right: 95px;
+}
+.content3 .fr .top{
+    height: 40px;
+    border-bottom: 1px solid #A9A9A9;
+}
+.content3 .fr .top p{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 12px;
+}
+.content3 .fr .top p a{
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 120px;
+}
+.content3 .top1 ul{
+    margin-top: 10px;
+    border-bottom: 1px solid #A9A9A9;
+}
+.content3 .top1 ul li{
+    height: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+.content3 .top1 ul li span{
+    color: #A9A9A9;
+}
+.content3 .top1 ul li.last{
+    margin-bottom: 20px;
+}
+.content3 .bag{
+    border-bottom: 1px solid #A9A9A9;
+}
+.content3 .bag h2{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+}
+.content3 .high{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.content3 .high img{
+    width: 183px;
+    height:106px ;
+   margin-left: 5px;
+    margin-top: 5px;
+}
+.content4{
+    height:230px;
+    margin-left: 110px;
+    margin-top:24px ;
+    position: relative;
+}
+.content4 .fl{
+    width: 188px;
+    height: 230px;
+    background-color:#D8EEFC ;
+    padding-right:25px ;
+}
+.content4 .fl .first{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background-color: #ff4e00;
+    color: white;
+   margin-left:55px ;
+}
+.content4 .fl span.sec{
+    color: #ff4e00;
+}
+.content4 .fl span{
+    position: relative;
+    top:5px;
+}
+.content4 .hot ul{
+    margin-left: 28px;
+}
+.content4 .hot ul li{
+    float: left;
+    padding-top:16px ;
+    padding-left: 26px;
+    padding-right:66px ;
+    border: 1px solid #A9A9A9;
+}
+.content4 .hot ul li p.center{
+    font-weight: bold;
+    font-size: 16px;
+}
+.content4 .hot ul li p{
+    text-align: center;
+    padding-top: 5px;
+}
+.content4 .hot ul li p span.last{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff4e00;
+    padding-left: 30px;
+}
+.content4 .hot .oli{
+    padding-right: 30px;
+}
+.sun{
+    height:110px ;
+    margin-left: 110px;
+    margin-top:10px ;
+}
+.content5{
+    height: 480px;
+    margin-left: 110px;
+    margin-top: 30px;
+    position: relative;
+    margin-right: 90px;
+}
+.content5 .top .fl{
+    height: 40px;
+    background: url("../images/floor.png") 0 0 no-repeat;
+}
+.content5 .top .fl p{
+    position: absolute;
+    left: 5px;
+    top: 6px;
+}
+.content5 .top .fl p i{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.content5 .top .fl p span{
+    margin-left: 20px;
+    font-size: 18px;
+    color: #ff4e00;
+}
+.content5 .top .fr ul li{
+    float: left;
+    padding: 10px;
+}
+.content5 .top .fr ul{
+    margin-right: 110px;
+}
+.content5 .top{
+    height: 40px;
+    border-bottom: 2px solid #ff4e00;
+}
+.content5 .down .fl{
+    width: 211px;
+    height:440px ;
+    background-color: darkseagreen;
+}
+.content5 .down .fl ul li{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dashed #9c9c9c;
+}
+.content5 .down .fl ul{
+    padding-top: 10px;
+}
+.content5 .down ul li a{
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.content5 .down .center{
+    width:1010px;
+    height:438px;
+    margin-left: 210px;
+}
+.content5 .down .center ul li{
+    float: left;
+    padding: 0px 10px;
+    border-right: 1px solid #9c9c9c;
+}
+.content5 .down .center ul li p.up{
+    text-align: center;
+    font-size: 14px;
+}
+.content5 .down .center ul li p.low{
+    text-align: center;
+    font-size: 16px;
+    color: red;
+}
+.content6{
+    height: 113px;
+    margin-top: 50px;
+}
+.content6 ul{
+    margin-left: 280px;
+}
+.content6 ul li{
+    display: block;
+    float: left;
+    padding-right:170px ;
+    text-align: center;
+}
+.content6 ul li h2{
+    font-weight: inherit;
+}
+.content7{
+    height:200px;
+    margin-left: 160px;
+    margin-right: 70px;
+    margin-top:65px ;
+    border-bottom: 1px solid #A9A9A9;
+}
+.content7 .fl ul li{
+    float: left;
+    padding-right: 95px;
+    height: 25px;
+    line-height: 25px;
+}
+.content7 .fl ul li.last{
+    padding-right: 120px;
+}
+.content7 .fl ul li h2{
+    font-weight: inherit;
+}
+.content7 .fl ul li dt{
+    padding-bottom: 12px;
+}
+.content7 .fl ul li dl.last{
+    width: 260px;
+    height: 200px;
+    float: left;
+}
+.content7 .fl ul li dl.last dd{
+    margin-left: 15px;
+    height: 40px;
+    line-height: 40px;
+}
+.content7 .fl ul li dl.last dd img{
+    vertical-align:middle;
+}
+.content7 .fl ul li dl.last dd.number{
+    font-size: 15px;
+    color: #ff4e00;
+    height: 15px;
+    line-height: 15px;
+}
+.footer{
+    height:50px;
+    margin-top:40px ;
+}
+.footer p{
+    text-align: center;
+}
+.footer ul {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+}
+.footer ul li{
+    float: left;
+    padding: 10px;
+}
+
+
+
+
+
